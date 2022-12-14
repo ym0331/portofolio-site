@@ -1,22 +1,27 @@
 <template>
-  <main>
-    <h1>About</h1>
-    <h2>吉澤 美音</h2>
+  <div id="about">
+    <h2>About</h2>
 
-    <div>
-      <a
-      href="https://adjustacademy.com/d2206/d220627-050601/"
-    >GitHub</a>
-    </div>
-    <div>
-    <a
-      href="https://adjustacademy.com/d2206/d220627-050601/"
-    >お問い合わせ</a>
-    </div>
+    <v-row>
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <img alt="プロフィール画像" src="./img/about.jpg" />
+      </v-col>
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <h3>吉澤 美音</h3>
+        <p>フロントエンドエンジニアを希望しています。</p>
+        <p>システムエンジニアとして5年程度勤務。</p>
+        <p>退職後は職業訓練校の「Webデザイナー&Webディレクター養成コース」に通いました。</p>
+        <p>現在はVue.jsを自習中です。</p>
+        <!-- <a href="https://adjustacademy.com/d2206/d220627-050601/">GitHub</a>
+        <a href="https://adjustacademy.com/d2206/d220627-050601/">お問い合わせ</a>-->
+        <h3>資格</h3>
+        <p>2017.5 基本情報技術者試験</p>
+        <p>2021.5 3級ファイナンシャル・プランニング技能検定</p>
+        <p>2022.7 Googleアナリティクス個人認定資格</p>
+      </v-col>
+    </v-row>
 
-    <h3>希望職種</h3>
-    <p>フロントエンドエンジニア</p>
-    <h3>経歴</h3>
+    <!-- <h3>経歴</h3>
     <h4>1社目:客先常駐のシステムエンジニア</h4>
     <p>
       新卒から3年間システム開発会社にて勤務。
@@ -32,11 +37,28 @@
     </p>
 
     <h4>現在:職業訓練校</h4>
-    <p>職業訓練校にて、フロントエンジニアを目指し、HTMLやCSSを学んでます。<br>また、Vue.jsを自己学習しています。</p>
-
-    <h3>資格</h3>
-    <p>2017.5 基本情報技術者試験</p>
-    <p>2021.5 3級ファイナンシャル・プランニング技能検定</p>
-    <p>2022.7 Googleアナリティクス個人認定資格</p>
-  </main>
+    <p>
+      職業訓練校にて、フロントエンジニアを目指し、HTMLやCSSを学んでます。
+      <br />また、Vue.jsを自己学習しています。
+    </p> -->
+  </div>
 </template>
+
+<style scoped>
+#about {
+  padding-top: 64px;
+  margin-top: -64px;
+  margin-bottom: 40px;
+}
+
+.textarea {
+  position: relative;
+  margin: auto;
+  padding: 0 10% 0;
+  text-align: center;
+}
+
+.abouttxt {
+  margin-bottom: 20px;
+}
+</style>

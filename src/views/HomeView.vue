@@ -1,26 +1,33 @@
 <template>
-<v-container>
-  <WorkDetail />
-  <SkillDetail />
+  <div id="home">
+  <MainVisual />
+  <v-container>
+    <WorkDetail />
     <AboutView />
-</v-container>
+    <SkillDetail />
+    <!-- <ContactArea /> -->
+  </v-container>
+  </div>
 </template>
 
 <script>
-import { defineComponent } from 'vue';
-import SkillDetail from '../views/SkillDetail.vue'
-import WorkDetail from  '../views/WorkDetail.vue'
-import AboutView from '../views/AboutView.vue';
-
+import { defineComponent } from "vue";
+import SkillDetail from "../views/SkillDetail.vue";
+import WorkDetail from "../views/WorkDetail.vue";
+import AboutView from "../views/AboutView.vue";
+// import ContactArea from "../views/ContactArea.vue";
+import MainVisual from "../views/MainVisual.vue";
 
 export default defineComponent({
-  name: 'HomeView',
+  name: "HomeView",
 
   components: {
     SkillDetail,
     WorkDetail,
-    AboutView
-  },
+    AboutView,
+    // ContactArea,
+    MainVisual
+  }
 });
 </script>
 

@@ -1,10 +1,10 @@
 <template>
-  <header>
+  <div class="mainvisual">
       <h1 class="logo">
         <div class="logo-title">Yoshizawa Mio</div>
         <div class="logo-subtitle">PORTFOLIO</div>
       </h1>
-    </header>
+    </div>
 
 </template>
 
@@ -16,7 +16,7 @@ header {
     height: 70vh;
 } */
 
-header {
+.mainvisual {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,5 +50,19 @@ header {
     text-align: center;
     letter-spacing: .2em;
 }
+
+
+.mainvisual{
+	animation: bgchange 20s ease infinite;/*変化の時間を変更したい場合は20sの部分を好きな時間に変更*/
+}
+
+@keyframes bgchange{
+      0%   {background:#ffe6e1;}/*変化させたい色*/
+      25%  {background:#fdcb9e;}/*変化させたい色*/
+      50%  {background:#fdcbc1;}/*変化させたい色*/
+      75%  {background:#ffff8c;}/*変化させたい色*/
+      90%  {background:#b2dffb;}/*変化させたい色*/
+      100% {background:#ffe6e1;}/*変化させたい色*/
+ }
 
 </style>

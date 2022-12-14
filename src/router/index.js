@@ -3,10 +3,10 @@ import HomeView from '../views/HomeView.vue'
 import SiteDetail1 from '../views/SiteDetail1.vue'
 import SiteDetail2 from '../views/SiteDetail2.vue'
 import bannerDetail1 from '../views/bannerDetail1.vue'
-import LogoDetail1 from  '../views/LogoDetail1.vue'
+import LogoDetail1 from '../views/LogoDetail1.vue'
 import bannerDetail2 from '../views/bannerDetail2.vue'
 import SkillDetail from '../views/SkillDetail.vue'
-import WorkDetail from  '../views/WorkDetail.vue'
+import WorkDetail from '../views/WorkDetail.vue'
 
 const routes = [
   {
@@ -55,13 +55,19 @@ const routes = [
   {
     path: '/Work',
     name: 'Work',
-    component: WorkDetail 
+    component: WorkDetail
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior() {
+    return {
+      top: 0
+    }
+  }
 })
+
 
 export default router

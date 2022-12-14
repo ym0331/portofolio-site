@@ -1,59 +1,52 @@
 <template>
-  <div>
-    <h1>Work</h1>
+  <div id="work">
 
-    <h2>開発・デザイン</h2>
-    <v-row>
-      <div style="display: flex;">
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6" class="works">
+    <h2>Work</h2>
+    
+    <v-row class="sitearea">
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6">
           <router-link to="/Site2">
-            <!-- <img alt="架空企業のポートフォリオサイト" src="./img/work2.jpg" /> -->
-            <h3>コーポレートサイト</h3>
+            <img alt="架空企業のポートフォリオサイト" src="./img/work2.jpg" class="worksimg">
+            <h4>コーポレートサイト</h4>
             <span class="skillCategory">Vue.js</span>
           </router-link>
         </v-col>
 
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6" class="works">
+        <v-col cols="12" sm="6" md="6" lg="6" xl="6">
           <router-link to="/Site1">
-            <!-- <img alt="架空企業のポートフォリオサイト" src="./img/work1.png" /> -->
-            <div>
-              <h3>コーポレートサイト</h3>
-              <p class="categoty">HTML/CSS</p>
-            </div>
+            <img alt="架空企業のポートフォリオサイト" src="./img/work1.png" class="worksimg">
+              <h4>コーポレートサイト</h4>
+              <span class="skillCategory">HTML/CSS</span>
           </router-link>
         </v-col>
-      </div>
     </v-row>
-
-    <h2>デザイン</h2>
-    <v-row>
-      <div style="display: flex;">
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6" class="works">
+    <v-row class="sitearea">
+        <v-col cols="12" sm="4" md="4" lg="4" xl="4" class="works">
           <router-link to="/banner1">
-            <!-- <img alt="架空企業のポートフォリオサイト" src="./img/banner1.jpg" /> -->
-            <h3>バナー広告デザイン</h3>
-            <p class="categoty">photoshop</p>
+            <img alt="架空企業のポートフォリオサイト" src="./img/banner1.jpg"  class="bannerimg">
+            <h4>バナー広告デザイン</h4>
+            <span class="skillCategory">photoshop</span>
           </router-link>
         </v-col>
 
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6" class="works">
+        <v-col cols="12" sm="4" md="4" lg="4" xl="4" class="works">
           <router-link to="/banner2">
-            <!-- <img alt="架空企業のポートフォリオサイト" src="./img/banner2.jpg" /> -->
-            <h3>Yahoo!ショッピング商品画像</h3>
-            <p class="categoty">photoshop</p>
+            <img alt="架空企業のポートフォリオサイト" src="./img/banner2.jpg"  class="bannerimg">
+            <h4>Yahoo!ショッピング商品画像</h4>
+            <span class="skillCategory">photoshop</span>
           </router-link>
         </v-col>
 
-        <v-col cols="12" sm="6" md="6" lg="6" xl="6" class="works">
+        <v-col cols="12" sm="4" md="4" lg="4" xl="4" class="works">
           <router-link to="/Logo1">
-            <!-- <img alt="架空企業のポートフォリオサイト" src="./img/logo1.jpg" /> -->
-            <h3>建設会社のロゴ・名刺デザイン</h3>
-            <p class="categoty">illustrator</p>
+            <img alt="架空企業のポートフォリオサイト" src="./img/logo1.jpg"  class="bannerimg">
+            <h4>建設会社のロゴ・名刺デザイン</h4>
+            <span class="skillCategory">photoshop</span>
           </router-link>
         </v-col>
-      </div>
     </v-row>
   </div>
+
 </template>
 
 
@@ -66,11 +59,6 @@
   
 } */
 
-.works {
-  padding: 10px;
-  overflow: hidden;
-}
-
 /* 
 .works img {
   transition: 1s all;
@@ -81,6 +69,19 @@
   transition: 1s all;
 } */
 
+.worksimg {
+  width: 100%;
+}
+
+.sitearea {
+  margin-bottom: 30px;
+}
+
+.bannerimg {
+  width: 100%;
+  border: 1px solid rgb(192, 192, 192);
+}
+
 .skillCategory {
   color: #fff;
   background-color: #2c3e50;
@@ -88,4 +89,11 @@
   border-radius: 100px;
   font-size: 0.9em;
 }
+
+#work {
+  padding-top: 64px;
+  margin-top: -64px;
+  margin-bottom: 40px;
+}
+
 </style>
