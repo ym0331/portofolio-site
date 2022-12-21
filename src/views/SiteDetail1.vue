@@ -2,7 +2,11 @@
   <v-container class="workdetail">
     <h1>訓練課題：架空のコーポレートサイト(HTML・CSS)</h1>
 
-    <img class="siteworkimg" alt="架空企業のポートフォリオサイト" src="./img/work1.png" />
+    <img
+      class="siteworkimg"
+      alt="架空企業のポートフォリオサイト"
+      src="./img/work1.png"
+    />
 
     <div class="workdetailarea">
       <p>
@@ -22,11 +26,11 @@
         href="https://adjustacademy.com/d2206/d220627-050601/"
         target="_blank"
         rel="noopener noreferrer"
-      >https://adjustacademy.com/d2206/d220627-050601/</a>
+        >https://adjustacademy.com/d2206/d220627-050601/</a
+      >
     </div>
 
     <h2>制作の過程</h2>
-
 
     <h3>担当範囲 ・作業時間</h3>
     <ul>
@@ -41,56 +45,99 @@
       <li>CSS</li>
     </ul>
 
-    <h2>コンセプト</h2>
+    <h2>学んだこと</h2>
+    <h3>サイト制作の一連の流れを経験</h3>
     <v-row class="workdetailarea">
       <v-col cols="12" sm="4" md="4" lg="4" xl="4">
         <img src="./img/site1Consept.jpg" alt="サイトのコンセプト" />
       </v-col>
-      <v-col cols="12" sm="8" md="8" lg="8" xl="8">
-        <h4>ターゲット</h4>
-        <p>オフィスのある企業の総務で働く方</p>
-
-        <h4>会社の概要</h4>
-        <p>企業向けにウォーターサーバーをレンタルしている。</p>
-        <p>高品質な天然水を使用している。</p>
-        <p>オフィスでも浮かないシンプルなデザインのウォーターサーバー</p>
-        <p>定期メンテナンスや修理、コールセンター対応あり。</p>
-
-        <h4>コンバージョン</h4>
-        <p>資料請求</p>
-        <p>契約の問い合わせ</p>
-
-        <h4>デザインコンセプト、主要カラー</h4>
-        <p>本サイトでは商品として「水」を取り扱います。安心で安全な印象をターゲットに与えたいです。</p>
-        <p>誠実さをアピールするため、ベースカラーは「白」、サブカラーは「青」にしました。</p>
-      </v-col>
-    </v-row>
-
-    <h2>デザイン</h2>
-    <p>学校の課題で制作したサイトのワイヤーフレームです。</p>
-    <v-row class="workdetailarea">
       <v-col cols="12" sm="4" md="4" lg="4" xl="4">
         <img src="./img/site1Design1.jpg" alt="サイトのワイヤーフレーム" />
       </v-col>
       <v-col cols="12" sm="4" md="4" lg="4" xl="4">
-        <img src="./img/site1Design2.jpg" alt="サイトのワイヤーフレーム" />
-      </v-col>
-      <v-col cols="12" sm="4" md="4" lg="4" xl="4">
-        <img src="./img/site1Design3.jpg" alt="サイトのワイヤーフレーム" />
+        <p><b>職業訓練校にてコンセプト、デザイン、実装を作成しました。</b></p>
+        <p>
+          また、各工程ごとに講師にレビューをしてもらい、修正するという実際の仕事のような流れも経験できました。
+        </p>
       </v-col>
     </v-row>
-
-    <h2>工夫した点</h2>
     <h3>スケジュール管理</h3>
     <v-row class="workdetailarea">
       <v-col cols="12" sm="6" md="6" lg="6" xl="6">
         <img src="./img/site1Schedule.jpg" alt="サイト制作のスケジュール" />
       </v-col>
       <v-col cols="12" sm="6" md="6" lg="6" xl="6">
-        <p>本作は学校の課題のため、締め切りに必ず間に合うことを意識してスケジュール管理を行いました。</p>
+        <p>
+          本作は学校の課題のため、締め切りに必ず間に合うことを意識してスケジュール管理を行いました。
+        </p>
 
         <p>きちんとしたスケジュール管理で締切は守れました。</p>
-        <p>また、余裕を持って作業が行えたため、夜ふかしをしたり、焦ることがありませんでした。</p>
+        <p>
+          また、余裕を持って作業が行えたため、夜ふかしをしたり、焦ることがありませんでした。
+        </p>
+      </v-col>
+    </v-row>
+
+    <h2>コンセプト</h2>
+    <v-row class="workdetailarea">
+      <v-col cols="12" sm="4" md="4" lg="4" xl="4">
+        <img src="./img/site1Consept.jpg" alt="サイトのコンセプト" />
+      </v-col>
+      <v-col cols="12" sm="8" md="8" lg="8" xl="8">
+
+        <p>企業向けにウォーターサーバーをレンタルしている<b>架空企業「ハッピーウォーター株式会社」のコーポレートサイト</b>です。</p>
+
+        <h3>コンバージョン</h3>
+        <p>資料請求・契約の問い合わせ増やす</p>
+
+        <h3>デザインコンセプト、主要カラー</h3>
+        <p>水の安全性や誠実さをアピールするためのにサイトとのベースカラーは「白」、サブカラーは「青」にしています。</p>
+
+
+      </v-col>
+    </v-row>
+
+    <h2>デザイン</h2>
+    <p>
+      学校の課題で制作したサイトのワイヤーフレームと実際のサイトデザインの比較です。
+    </p>
+    <h3>ホーム画面</h3>
+    <v-row class="workdetailarea">
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <img src="./img/site1Design1.jpg" alt="サイトのワイヤーフレーム" />
+      </v-col>
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <img
+          src="./img/site1DesignHome.jpg"
+          class="sitedesign"
+          alt="サイトのデザイン"
+      /></v-col>
+    </v-row>
+
+    <h3>会社概要画面</h3>
+    <v-row class="workdetailarea">
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <img src="./img/site1Design2.jpg" alt="サイトのワイヤーフレーム" />
+      </v-col>
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <img
+          src="./img/site1DesignBusiness.jpg"
+          class="sitedesign"
+          alt="サイトのデザイン"
+      /></v-col>
+    </v-row>
+
+    <h3>事業概要画面</h3>
+    <v-row class="workdetailarea">
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <img src="./img/site1Design3.jpg" alt="サイトのワイヤーフレーム" />
+      </v-col>
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <img
+          src="./img/site1DesignCompany.jpg"
+          class="sitedesign"
+          alt="サイトのデザイン"
+        />
       </v-col>
     </v-row>
 
@@ -98,13 +145,19 @@
     <div class="workdetailarea">
       <h3>実装しづらいデザインになっていた</h3>
 
-      <p>デザインに書き出す時には簡単でも、いざ実装しようとすると難しいと思う箇所に何度も遭遇しました。</p>
+      <p>
+        デザインに書き出す時には簡単でも、いざ実装しようとすると難しいと思う箇所に何度も遭遇しました。
+      </p>
       <p>実装しやすさまで考えてデザインをしなければならないと学びました。</p>
+    </div>
 
+    <div class="workdetailarea">
       <h3>マルチデバイス対応ができなかった</h3>
 
       <p>本作はスマホ・タブレットで閲覧すると画面が崩れます。</p>
-      <p>現状、ユーザーはスマホでサイトを閲覧することが多いため、マルチデバイス対応は必須です。</p>
+      <p>
+        現状、ユーザーはスマホでサイトを閲覧することが多いため、マルチデバイス対応は必須です。
+      </p>
       <p>次回はマルチデバイスに対応したサイトを制作したいと思いました。</p>
     </div>
 
@@ -127,5 +180,9 @@ h3 {
 
 p {
   margin-bottom: 20px;
+}
+
+.sitedesign {
+  border: 1px solid rgb(192, 192, 192);
 }
 </style>
