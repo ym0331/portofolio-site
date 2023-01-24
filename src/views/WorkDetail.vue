@@ -41,7 +41,7 @@
           <router-link to="/Logo1">
             <img alt="架空企業のポートフォリオサイト" src="./img/logo1.jpg"  class="bannerimg">
             <h4>建設会社のロゴ・名刺デザイン</h4>
-            <span class="skillCategory">photoshop</span>
+            <span class="skillCategory">illustrator</span>
           </router-link>
         </v-col>
     </v-row>
