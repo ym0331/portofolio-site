@@ -1,53 +1,92 @@
 <template>
-  <v-container>
-    <h2>訓練課題:Yahoo!ショッピング商品画像、LINEの広告画像デザイン</h2>
+  <v-container class="workdetail">
+    <h1>訓練課題:Yahoo!ショッピング商品画像</h1>
 
-    <v-row>
+    <v-row class="siteworkimg">
       <v-col cols="12" sm="6" md="6" lg="6" xl="6">
         <img alt="おいしい新鮮卵の商品画像" src="./img/product.png" />
       </v-col>
       <v-col cols="12" sm="6" md="6" lg="6" xl="6">
-        <img alt="おいしい新鮮卵通販のLINE用広告" src="./img/product2.png" />
+        <img alt="おいしい新鮮卵通販のLINE用広告" src="./img/yahookeisai.jpg" />
       </v-col>
     </v-row>
 
-
-    <h3>概要</h3>
     <p>
-      Yahooショッピングに掲載する、架空の養鶏場から直送される高級卵の商品画像、ライン広告画像を制作。
-      <br />また、Yahoo!ショッピング掲載する商品情報の記載やライン広告の宣伝頻度も企画しました。
+      訓練課題として、Yahooショッピングに掲載する架空の商品画像を制作しました。
     </p>
+    <p>また、掲載文の作成、デザインコンセプトのプレゼンも行いました。</p>
+
+    <h3>課題内容</h3>
+    <ul>
+      <li>Yahoo!ショッピングに掲載する架空の商品画像を制作する</li>
+      <li>サイズは500×500</li>
+      <li>商品画像のコンセプトを授業内にプレゼンする</li>
+    </ul>
+
+    <h2>制作の過程</h2>
+
+    <h3>担当範囲</h3>
+    <ul>
+      <li>コンセプト(30分)</li>
+      <li>デザイン(1時間)</li>
+      <li>掲載文の作成(30分)</li>
+      <li>プレゼン(5分)</li>
+    </ul>
 
     <h3>スキル</h3>
-    <p>AdobeCC Photoshop</p>
+    <ul>
+      <li>AdobeCC Photoshop</li>
+    </ul>
 
-    <h3>担当範囲 ・作業時間</h3>
-    <p>企画（0.5時間）、デザイン（1時間）</p>
+    <h2>学んだこと</h2>
+    <h3>プレゼン能力</h3>
+    <p>
+      <b
+        >今回の課題では自分で作成したバナーのコンセプトのプレゼンを授業内に行いました。</b
+      >
+    </p>
+    <p>制限時間は5分。</p>
+    <p>決められた時間内で要点を絞ってプレゼンするこを意識しました。</p>
 
-    <h3>Yahoo!ショッピング用の商品画像</h3>
-    <h4>ターゲット</h4>
+    <h2>コンセプト</h2>
+    <p>養鶏場から直送される高級卵の商品画像です。</p>
+
+    <h3>ターゲット</h3>
     <p>オーガニックな食材が好きな20~30代の女性</p>
 
-    <h4>コンバージョン</h4>
+    <h3>コンバージョン</h3>
     <p>Yahoo!ショッピングで商品を購入してもらう。</p>
 
-    <h4>コンセプト</h4>
-    <p>送料に敏感なユーザーに向けて「送料無料」を大きくわかりやすく表示するようにしました。</p>
+    <h3>デザインコンセプト</h3>
+    <p>ターゲットを意識して、<b>ナチュラルでシンプルなデザイン</b>を意識しています。</p>
 
-    <h3>LINE広告</h3>
-    <h4>ターゲット</h4>
-    <p>LINEで養鶏場のアカウントを友だち追加したユーザー</p>
+    <p>
+      また、<b>送料に敏感なユーザーに向けて「送料無料」を大きくわかりやすく表示</b>するようにしています。
+    </p>
 
-    <h4>コンセプト</h4>
-    <p>Yahoo!ショッピングで卵がセールする旨をラインで宣伝する。</p>
-
-    <h4>コンバージョン</h4>
-    <p>ラインの広告の画像をクリックしてもらい、Yahoo!ショッピングの商品を購入してもらう。</p>
-
-    <h4>アピールポイント</h4>
-    <p>「今すぐ見る」ボタンでクリックを誘導する。</p>
-    <p>卵の値下げ額は70円程度と低いため、「10%OFF」という記載にして、お得感を出しました。</p>
-
-    <router-link to="/">戻る</router-link>
+    <div class="text-center">
+      <router-link to="/work">
+        <v-btn class="ma-2" x-large color="black">一覧へ</v-btn>
+      </router-link>
+    </div>
   </v-container>
 </template>
+
+
+<style scoped>
+h3 {
+  margin-bottom: 30px;
+  font-size: 1.25rem;
+  padding: 0.25em 0.5em;
+  background: transparent;
+  border-left: solid 5px #000;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.sitedesign {
+  border: 1px solid rgb(192, 192, 192);
+}
+</style>

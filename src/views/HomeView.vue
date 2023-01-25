@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-  <MainVisual />
+  <!-- <MainVisual /> -->
   <v-container>
     <WorkDetail />
     <AboutView />
@@ -16,7 +16,7 @@ import SkillDetail from "../views/SkillDetail.vue";
 import WorkDetail from "../views/WorkDetail.vue";
 import AboutView from "../views/AboutView.vue";
 // import ContactArea from "../views/ContactArea.vue";
-import MainVisual from "../views/MainVisual.vue";
+// import MainVisual from "../views/MainVisual.vue";
 
 export default defineComponent({
   name: "HomeView",
@@ -26,7 +26,7 @@ export default defineComponent({
     WorkDetail,
     AboutView,
     // ContactArea,
-    MainVisual
+    // MainVisual
   }
 });
 </script>
