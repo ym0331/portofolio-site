@@ -83,14 +83,14 @@
     <h3>WordPressと連携</h3>
     <v-row class="workdetailarea">
       <v-col cols="12" sm="6" md="6" lg="6" xl="6">
-            <img src="#" alt="サイト制作のコンセプト画像" />
+            <img src="./img/wordpress.jpg" alt="サイト制作のコンセプト画像" />
       </v-col>
       <v-col cols="12" sm="6" md="6" lg="6" xl="6">
         <p>
       実際のコーポレートサイトを想定して、<b>お客様が頻繁に更新するページはWordPressを組み込みました</b>。
     </p>
     <p>
-      <b>WordPressの記事を更新すると、サイト内の「事業事例」が自動的に更新されます。</b>
+      <b>WordPressの記事を更新すると、サイト内の「施工事例」が自動的に更新されます。</b>
     </p>
     <p>
       また、WordPressの実際の利用を意識して、<b>ユーザーごとのアカウント権限を設定</b>しています。
