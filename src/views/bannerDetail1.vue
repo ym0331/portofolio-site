@@ -74,7 +74,7 @@
 
 
     <div class="text-center">
-      <router-link to="/work">
+      <router-link to="/">
         <v-btn class="ma-2" x-large color="black">一覧へ</v-btn>
       </router-link>
     </div>

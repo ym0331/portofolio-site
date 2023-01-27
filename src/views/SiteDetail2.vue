@@ -19,10 +19,10 @@
 
       <h3>URL</h3>
       <p>
-        <a href="https://www.portfolio-ym.site/site2/"
+        <a href="https://www.portfolio-ym.site/corporate/"
         target="_blank"
         rel="noopener noreferrer"
-          >https://www.portfolio-ym.site/site2/</a
+          >https://www.portfolio-ym.site/corporate/</a
         >
       </p>
 
@@ -120,7 +120,7 @@
     </div>
 
     <div class="text-center">
-      <router-link to="/work">
+      <router-link to="/">
         <v-btn class="ma-2" x-large color="black">一覧へ</v-btn>
       </router-link>
     </div>
