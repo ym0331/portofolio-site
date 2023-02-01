@@ -130,7 +130,35 @@
         </v-row>
       </v-col>
     </v-row>
+  <v-row>
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <v-row>
+          <v-col cols="2">
+            <img s src="./img/dw.jpg" alt="html" />
+          </v-col>
 
+          <v-col cols="10">
+            <h4>Dreamweaver</h4>
+            <p>Dreamweaverを使用したコーディングが可能です。</p>
+          </v-col>
+        </v-row>
+      </v-col>
+
+      
+      <v-col cols="12" sm="6" md="6" lg="6" xl="6">
+        <v-row>
+          <v-col cols="2">
+            <img s src="./img/wp.jpg" alt="html" />
+          </v-col>
+
+          <v-col cols="10">
+            <h4>WordPress</h4>
+            <p>趣味でWordPressで作成したブログを2年ほど運営しています。</p>
+          </v-col>
+        </v-row>
+      </v-col>
+
+    </v-row>
 
   </div>
 </template>
