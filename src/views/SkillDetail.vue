@@ -47,7 +47,7 @@
           <v-col cols="10">
             <h4>JavaScript</h4>
             <p>
-              フレームワークやライブラリを使用しない<strong>実務経験が半年程度</strong>あります。
+              <strong>実務経験が半年程度</strong>あります。
             </p>
           </v-col>
         </v-row>
